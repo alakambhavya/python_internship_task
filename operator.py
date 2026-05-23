@@ -26,6 +26,7 @@ print( not 50>=20)
 print(".......................")
 
 #task5:Create a binary calculator using bitwise operations.  
+print("binary calculator")
 num_3=0
 num_4=1
 print(num_3&num_4)
@@ -40,8 +41,19 @@ print(".....................")
 #task2:Create a program to validate email usernames using identifiers.  
 user1="alakambhavya@gmail.com"
 user2=user1
+user_input=input("enter mail")
 print(user1 is user2)
 print(user1 is not user2)  
+
+print(".............")
+
+#task1:Build a mini search engine using membership operators.
+names="bhavya","suchi","varnika","nandu"
+search=input("enter data")
+search="nandu"
+print(search in names)
+print(search not in names)
+ 
 
 
 
