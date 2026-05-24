@@ -1,6 +1,5 @@
 #task1:Build a mini search engine using membership operators.
 names="bhavya","suchi","varnika","nandu"
-search=input("enter names")
 search="nandu"
 print(search in names)
 print(search not in names)
